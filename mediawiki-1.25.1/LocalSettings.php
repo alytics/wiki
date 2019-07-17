@@ -144,3 +144,6 @@ $wgSMTP = array(
 
 $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['*']['edit'] = false;
+
+# Adding MetaDescriptionTag extension
+wfLoadExtension( 'MetaDescriptionTag' );
